@@ -22,6 +22,8 @@ sudo apt-get install gobuster
 sudo apt-get install sublist3r
 sudo apt-get install wpscan
 sudo apt-get install sqlmap
+sudo apt-get install whatweb
+
 
 #install go
 if [[ -z "$GOPATH" ]];then
