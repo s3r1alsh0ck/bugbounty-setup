@@ -1,3 +1,12 @@
+# TOOLS:
+
+* meg dumped from ``https://github.com/tomnomnom/meg``
+ * usage : meg /wordlist-path/.txt /domains_path/.txt
+ * wayback dumped from ``https://github.com/tomnomnom/waybackurls``
+  * usage : cat domains.txt | waybackurls | tee -a output.txt
+ * httprobe : dumped from ``https://github.com/tomnomnom/httprobe``
+  * usage : cat domains.txt | httprobe | tee -a output.txt
+ 
 # This is help menu for the aliases.
 
 1. ipinfo (This alias helps you to find the data of a specific domain by its ip.)
