@@ -2,7 +2,7 @@
 
 I have Created this tool to automate the process of sorting out the image,font,gif,svg,css kind 
 of file when we search for data through waybackurl script and more over  i have added some aliases to ``.bash_profile``
-i will be listing the usage of these aliases in ``info.md``.The main aim to crate these aliases to automate the process 
+i will be listing the usage of these aliases in ``info.md``.The main aim to create these aliases to automate the process 
 of sorting unwanted files while fuzz a domain and ``piping`` the output to another file and the intresting thing 
 with ``status`` alias is that if you have a txt file which contains `n` number of urls which takes whole day some
 times to check manually you can automate it with this alias it takes the input file and checks every url and `pipe` the output to the given.
