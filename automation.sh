@@ -106,6 +106,10 @@ echo "installing meg"
 go get -u github.com/tomnomnom/meg
 echo "done"
 
+echo "installing gobuster"
+go get github.com/OJ/gobuster
+echo "done"
+
 cd
 
 echo -e "---------------------------Done! ~/tools---------------------------------------------------------"
