@@ -17,8 +17,8 @@
 * usage: port domains.txt output.txt
 4. status (This alias scans the urls or domains from a file and `pipe` the output only urls which have `200` status code  another file)
 * Usage: status domains/urls.txt output.txt
-5. filter ( This alias helps to sort all useless files like  jpg  png  gif woff  woff2  ttf  svg  jpeg  css  ico  eot and pipe the output to output.txt)
-* Usage: filter wayback.domain.txt output.txt
+5. wayback ( This alias helps to sort all useless files like  jpg  png  gif woff  woff2  ttf  svg  jpeg  css  ico  eot and pipe the output to output.txt)
+* Usage: wayback domain.txt output.txt
 6. b64d ( This is for converting base64 string into normal text)
 * Usage: b64d base64-string
 7. b64e ( This is for converting text to bas64 encoded string)
@@ -29,3 +29,5 @@
 * Usage: s3ls domain.com 
 10. s3cp ( This copies local file to a s3bucket)
 * Usage: s3cp domain.com test.txt
+11. subloop (For scanning domains in a text file)
+* Usage: subloop domains.txt output.txt
