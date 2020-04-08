@@ -23,4 +23,4 @@ files most of the urls will be of `redirection` or `forbidden` or `not found` th
 
 ## Note if the aliases doesn't execute:
 
-Try the following command from root directory ``source .bash_profile``.
+Try the following command ``source /root/.bash_profile``.
