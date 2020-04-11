@@ -23,7 +23,7 @@ sudo apt-get install sublist3r
 sudo apt-get install wpscan
 sudo apt-get install sqlmap
 sudo apt-get install whatweb
-
+sudo apt-get install eyewitness
 
 #install go
 if [[ -z "$GOPATH" ]];then
@@ -123,6 +123,6 @@ cat bash_profile >> ~/.bash_profile
 source ~/.bash_profile
 echo "done"
 
-
+source /root/.bash_profile
 
 echo   "GAME TIME."
