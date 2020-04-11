@@ -17,8 +17,6 @@ sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
-sudo apt-get install golang
-sudo apt-get install gobuster
 sudo apt-get install sublist3r
 sudo apt-get install wpscan
 sudo apt-get install sqlmap
