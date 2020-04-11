@@ -1,6 +1,6 @@
 # BUG BOUNTY Setup.
 
-This script contains all the essential tools, scripts, aliases, used in bug bounty and penetration testing platforms!!
+This script contains all the essential tools, scripts, bash_profiling , used in bug bounty and penetration testing platforms!!
 
 
 
