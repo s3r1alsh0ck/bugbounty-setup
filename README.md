@@ -13,11 +13,11 @@ files most of the urls will be of `redirection` or `forbidden` or `not found` th
 
 # Tool Usage:
 
-* git clone https://github.com/jayashankarkumar/bugbounty-automation.git
+* git clone https://github.com/jayashankarkumar/bugbounty-setup.git
 
-* cd bugbounty-automation
+* cd bugbounty-setup
 
-* sudo bash automation.sh
+* sudo bash setup.sh
 
 * source .bash_profile
 
