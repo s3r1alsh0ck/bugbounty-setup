@@ -19,7 +19,7 @@ files most of the urls will be of `redirection` or `forbidden` or `not found` th
 
 * sudo bash setup.sh
 
-* source .bash_profile
+* source /root/.bash_profile
 
 ## Note if the aliases doesn't execute:
 
