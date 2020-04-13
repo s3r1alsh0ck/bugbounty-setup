@@ -68,6 +68,12 @@ cargo build --release
 sudo cp target/release/findomain /usr/bin/
 cd ~/tools/
 
+echo "installing eyewitness"
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+cd /root/EyeWitness/Python/setup
+bash setup.sh
+cd ~/tools/
+
 echo "installing Sublist3r"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
@@ -78,9 +84,6 @@ echo "done"
 echo "installing nmap"
 sudo apt-get install -y nmap
 echo "done"
-
-cd
-cd /go/bin
 
 echo "installing httprobe"
 go get -u github.com/tomnomnom/httprobe 
@@ -102,7 +105,7 @@ echo "installing gobuster"
 go get github.com/OJ/gobuster
 echo "done"
 
-cd
+
 
 echo -e "---------------------------Done! ~/tools---------------------------------------------------------"
 
