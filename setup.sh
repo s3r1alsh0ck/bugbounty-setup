@@ -22,7 +22,7 @@ sudo apt-get install wpscan
 sudo apt-get install sqlmap
 sudo apt-get install whatweb
 sudo apt-get install eyewitness
-
+sudo apt-get install cargo
 
 echo "Installing Golang"
 wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
@@ -60,6 +60,13 @@ echo "installing virtual host discovery"
 git clone https://github.com/jobertabma/virtual-host-discovery.git
 cd ~/tools/
 echo "done"
+
+echo installig "findomain"
+git clone https://github.com/Edu4rdSHL/findomain.git
+cd findomain
+cargo build --release
+sudo cp target/release/findomain /usr/bin/
+cd ~/tools/
 
 echo "installing Sublist3r"
 git clone https://github.com/aboul3la/Sublist3r.git
