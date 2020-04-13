@@ -87,6 +87,10 @@ echo "installing meg"
 go get -u github.com/tomnomnom/meg
 echo "done"
 
+echo "installing subfinder"
+go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+echo "done"
+
 echo "installing gobuster"
 go get github.com/OJ/gobuster
 echo "done"
