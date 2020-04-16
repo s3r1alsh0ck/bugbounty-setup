@@ -89,6 +89,10 @@ echo "installing httprobe"
 go get -u github.com/tomnomnom/httprobe 
 echo "done"
 
+echo "installing subjack"
+go get github.com/haccer/subjack
+echo "done"
+
 echo "installing waybackurls"
 go get github.com/tomnomnom/waybackurls
 echo "done"
