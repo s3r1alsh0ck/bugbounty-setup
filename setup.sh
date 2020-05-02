@@ -87,11 +87,13 @@ sudo apt-get install -y nmap
 echo "done"
 
 echo "installing httprobe"
-go get -u github.com/tomnomnom/httprobe 
+go get -u github.com/tomnomnom/httprobe
+go get github.com/ffuf/ffuf
 echo "done"
 
 echo "installing subjack"
 go get github.com/haccer/subjack
+go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 echo "done"
 
 echo "installing waybackurls"
