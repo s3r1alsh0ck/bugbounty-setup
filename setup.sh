@@ -21,6 +21,7 @@ sudo apt-get install sublist3r
 sudo apt-get install wpscan
 sudo apt-get install sqlmap
 sudo apt-get install whatweb
+sudo apt-get install golang
 sudo apt-get install eyewitness
 sudo apt-get install cargo
 
