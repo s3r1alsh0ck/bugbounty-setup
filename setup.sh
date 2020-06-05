@@ -91,8 +91,9 @@ go get -u github.com/tomnomnom/httprobe
 go get github.com/ffuf/ffuf
 echo "done"
 
-echo "installing subjack"
+echo "installing multiplego tools"
 go get github.com/haccer/subjack
+GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 echo "done"
 
