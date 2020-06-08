@@ -82,6 +82,29 @@ pip3 install -r requirements.txt
 cd ~/tools/
 echo "done"
 
+echo "installing ParamSpider"
+git clone https://github.com/devanshbatham/ParamSpider.git
+cd ParamSpider
+pip3 install -r requirements.txt
+cd ~/tools/
+echo "done"
+
+echo "installing Photon"
+git clone https://github.com/s0md3v/Photon.git
+cd Photon
+pip3 install -r requirements.txt
+cd ~/tools/
+echo "done"
+
+echo "installing S3Scanner"
+git clone https://github.com/sa7mon/S3Scanner.git
+cd S3Scanner
+pip3 install -r requirements.txt
+cd ~/tools/
+echo "done"
+
+
+
 echo "installing nmap"
 sudo apt-get install -y nmap
 echo "done"
