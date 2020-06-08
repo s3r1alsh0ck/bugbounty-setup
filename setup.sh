@@ -75,10 +75,10 @@ cd /root/EyeWitness/Python/setup
 bash setup.sh
 cd ~/tools/
 
-echo "installing Sublist3r"
-git clone https://github.com/aboul3la/Sublist3r.git
-cd Sublist3r*
-pip install -r requirements.txt
+echo "installing gitGraber"
+git clone https://github.com/hisxo/gitGraber.git
+cd gitGraber
+pip3 install -r requirements.txt
 cd ~/tools/
 echo "done"
 
@@ -95,6 +95,9 @@ echo "installing multiplego tools"
 go get github.com/haccer/subjack
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+go get -u github.com/sensepost/gowitness
+
+
 echo "done"
 
 echo "installing waybackurls"
