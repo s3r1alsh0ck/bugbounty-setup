@@ -114,10 +114,11 @@ go get -u github.com/tomnomnom/httprobe
 go get github.com/ffuf/ffuf
 echo "done"
 
-echo "installing multiplego tools"
+echo "installing multiple go tools"
 go get github.com/haccer/subjack
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+go get -u github.com/j3ssie/metabigor
 go get -u github.com/sensepost/gowitness
 
 
