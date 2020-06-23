@@ -117,6 +117,7 @@ echo "done"
 echo "installing multiple go tools"
 go get github.com/haccer/subjack
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
+go get -u github.com/jaeles-project/gospider
 go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
 go get -u github.com/j3ssie/metabigor
 go get -u github.com/sensepost/gowitness
